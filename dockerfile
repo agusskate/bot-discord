@@ -1,7 +1,7 @@
 FROM node:18
 
-# Instala herramientas de compilación necesarias
-RUN apt-get update && apt-get install -y build-essential
+# Instala herramientas de compilación necesarias + Python
+RUN apt-get update && apt-get install -y build-essential python3
 
 WORKDIR /app
 
