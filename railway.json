@@ -1,0 +1,11 @@
+{
+  "nix": {
+    "nodejs": "18",
+    "packages": [
+      "gcc",
+      "make",
+      "python3",
+      "ffmpeg"
+    ]
+  }
+}
